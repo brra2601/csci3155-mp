@@ -13,11 +13,6 @@ public class Api {
     @Autowired
     private Animal animal;
 
-    @GetMapping
-    public ResponseEntity<Object> getHello() {
-        return ResponseEntity.ok().body(new ApiResponse("Hello world!"));
-    }
-
     @GetMapping(value = "/animal")
     public ResponseEntity<Object> getAnimalNoise() {
         String animalNoise = animal.makeNoise();
