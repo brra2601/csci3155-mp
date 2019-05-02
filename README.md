@@ -1,4 +1,5 @@
 # CSCI 3155 Miniproject
+Brandon Rajkowski, Donald Boles, and Levi Nickerson
 
 ## Requirements
 * Maven
